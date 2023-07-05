@@ -2,6 +2,7 @@
 
 I wrote this to check all mapped drives for all users on a single system. Example below.
 
+```
 Username   DriveLetter RemotePath                                         
 --------   ----------- ----------                                         
 aparker    m           \\10.0.1.82\mow\chartcapture                   
@@ -33,3 +34,4 @@ kcarpenter Z           \\mow-app1\Statements
 admin	   m           \\10.0.1.82\mow\chartcapture                   
 admin      p           \\10.0.1.82\mow\docs                           
 admin      s           \\10.0.1.82\mow\scans                          
+```
