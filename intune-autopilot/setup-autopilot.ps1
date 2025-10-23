@@ -23,5 +23,4 @@ Get-WindowsAutopilotInfoCommunity -Online -Verbose
 
 # Optionally, reboot so Autopilot profile applies
 Write-Host "Import complete. Restarting device..."
-Restart-Computer -Force
-
+Restart-Computer -Force -Confirm:$false
